@@ -1,4 +1,3 @@
-# 1_billion_row_challenge_python
 # 1 Billion Row Challenge - Python Implementation
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
@@ -7,14 +6,15 @@
 This project implements three progressively optimized Python solutions for processing 1 billion weather station measurements. Each version demonstrates significant performance improvements while maintaining accuracy.
 
 ## 📂 Project Structure
-1_billion_row_challenge_python/
-├── data_generator/
-│   ├── data/  # Data output directory
-│   └── data_generator.py # Data generation script
-├── src/
-│   ├── v1_basic.py       # Baseline implementation
-│   └── v2_implementation.py # Memory-optimized version
-└── README.md         # Project documentation
+
+- 📂 __1\_billion\_row\_challenge\_python__
+   - 📄 [README.md](README.md)
+   - 📂 __data\_generator__
+     - 📂 __data__
+     - 📄 [data\_generator.py](data_generator/data_generator.py)
+   - 📂 __src__
+     - 📄 [v1\_basic.py](src/v1_basic.py)
+     - 📄 [v2\_implementation.py](src/v2_implementation.py)
 
 
 
@@ -34,5 +34,8 @@ This project implements three progressively optimized Python solutions for proce
 
 
 **Sample Benchmark (10M rows):**
+
+
 V1: 8.72s @ 1.14M rows/s
+
 V2: 5.06s @ 1.98M rows/s
